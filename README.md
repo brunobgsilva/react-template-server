@@ -1,7 +1,7 @@
 
-# Fullstack WebApp Simulation
+# Backend for Fullstack WebApp Simulation
 
-A simple website that simulates fullstack interaction between front and back-end.
+A simple backend for my project that simulates fullstack interaction between front and back-end.
 
 ## Features
 
