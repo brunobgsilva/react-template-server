@@ -29,7 +29,6 @@ A simple backend that is used for my fullstack project that simulates interactio
 | Parameter | Type     | Description                |
 | :-------- | :------- | :------------------------- |
 | `nome` | `string` | **Required**. Account name |
-| `nome` | `string` | **Required**. Account name |
 | `email` | `string` | **Required**. Account email |
 | `senha` | `string` | **Required**. Account password |
 
