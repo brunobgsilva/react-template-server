@@ -43,6 +43,15 @@ A simple backend for my project that simulates fullstack interaction between fro
 | `email`      | `string` | **Required**. Account email |
 | `senha`      | `string` | **Required**. Account password |
 
+#### Response Example (``` 200 OK ```)
+
+```
+{
+    "message": "Login bem sucedido",
+    "token": "few9fidjkfnsifw3rq3"
+}
+```
+
 ## Deployment
 
 To deploy this project run
