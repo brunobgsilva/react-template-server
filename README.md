@@ -1,7 +1,7 @@
 
-# Backend for WebApp Simulation
+# Fullstack WebApp Simulation
 
-A simple backend that is used for my fullstack project that simulates interaction between front and backend.
+A simple website that simulates fullstack interaction between front and back-end.
 
 ## Features
 
@@ -51,7 +51,15 @@ To deploy this project run
   npm install
 ```
 
+Dependencies:
 
+``` 
+express
+pg
+sequelize
+nodemon
+dotenv
+```
 ## Run Locally
 
 Clone the project
