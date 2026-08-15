@@ -3,6 +3,7 @@ const cors = require('cors');
 const dotenv = require('dotenv');
 const db = require('./models');
 const authController = require('./controllers/authController');
+const calculadoraController = require('./controllers/calculadoraController');
 const { autenticar, somenteAdmin } = require('./middleware/auth');
 
 dotenv.config(); // Carrega o .env
@@ -14,6 +15,8 @@ app.post('/registrar', authController.registrar);
 
 // Rota pública: login e geração do token
 app.post('/login', authController.login);
+
+app.post('/calculadora', calculadoraController.calcular);
 
 // Rota protegida: acessível para qualquer usuário autenticado
 app.get('/painel', autenticar, (req, res) => {
